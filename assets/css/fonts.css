@@ -1,0 +1,71 @@
+/* ===== Primary Styles ========================================================
+	Author: Chi-chi Wang
+	Quick Prototype
+	Font Delivery Packages
+  ==========================================================================  */
+
+  @font-face {
+    font-family: 'LobsterRegular';
+    src: url('../fonts/lobster-webfont.eot');
+    src: url('../fonts/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster-webfont.woff') format('woff'),
+         url('../fonts/lobster-webfont.ttf') format('truetype'),
+         url('../fonts/lobster-webfont.svg#LobsterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'JournalRegular';
+    src: url('../fonts/journal-webfont.eot');
+    src: url('../fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/journal-webfont.woff') format('woff'),
+         url('../fonts/journal-webfont.ttf') format('truetype'),
+         url('../fonts/journal-webfont.svg#JournalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu Condensed';
+    src: url('../fonts/ubuntucondensed-regular-webfont.eot');
+    src: url('../fonts/ubuntucondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntucondensed-regular-webfont.woff') format('woff'),
+         url('../fonts/ubuntucondensed-regular-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntucondensed-regular-webfont.svg#UbuntuCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'DroidSansRegular';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'TienneRegular';
+    src: url('../fonts/Tienne-Regular-webfont.eot');
+    src: url('../fonts/Tienne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Tienne-Regular-webfont.woff') format('woff'),
+         url('../fonts/Tienne-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Tienne-Regular-webfont.svg#TienneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-Regular-webfont.eot');
+    src: url('../fonts/DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Regular-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Regular-webfont.svg#DroidSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }

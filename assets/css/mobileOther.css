@@ -1,0 +1,275 @@
+/* ===== Mobile Styles ========================================================
+	Author: Chi-chi Wang
+	TITLE COMMENTS
+  ==========================================================================  */
+  /* @media only screen
+  and (max-device-width : 1024px) { */
+
+  button#inputText_toggle {
+  visibility: hidden;
+  }
+
+/* ==== Bottom Menu Bar ==== */
+  #mobileMenuBar {
+  	display: block;
+  	position: fixed;
+    overflow: visible;
+  	width: 100%;
+  	border-top: 1px solid #363843;
+    border-bottom: 1px solid #292B33;
+  	z-index: 8;
+  	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(192,192,196,1) 2%, rgba(54,56,67,1) 50%, rgba(54,56,67,1) 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,1)), color-stop(0.02, rgba(192,192,196,1)), color-stop(0.5, rgba(54,56,67,1)), to(rgba(54,56,67,1))); /* < Chrome10, < Safari5.1 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* Chrome10+,Safari5.1+ */
+  	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* W3C */
+  }
+  button#mobileTextButton {
+  	display: block;
+  	border: 0;
+  	width: 47px;
+    height: 26px;
+    margin: 3px auto 0 auto;
+  }
+  button#mobileTextButton {
+	background:#4a6c9b;
+	
+	background-image: url("../img/keyboard_mobile.png"), linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+	background-image: url("../img/keyboard_mobile.png"), -o-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+	background-image: url("../img/keyboard_mobile.png"), -moz-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+	background-image: url("../img/keyboard_mobile.png"), -webkit-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+	background-image: url("../img/keyboard_mobile.png"), -ms-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+	background-image: url("../img/keyboard_mobile.png"), -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(74,108,155)),
+		color-stop(0.5, rgb(71,105,153)),
+		color-stop(0.5, rgb(88,119,162)),
+		color-stop(1, rgb(138,161,191))
+	);
+	
+	border:1px solid #314765;
+	
+	-webkit-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+	-moz-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+	box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87; 
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+  }
+  /* ==== MOBILE INPUT FEED ==== */
+  button#deleteTextButton {
+    display: block;
+    border: 0;
+    width: 85px;
+    height: 26px;
+    margin: 40px auto 0 auto;
+    z-index: 7;
+  }
+  button#deleteTextButton {
+    background:#4a6c9b;
+    
+    background-image: linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(74,108,155)),
+      color-stop(0.5, rgb(71,105,153)),
+      color-stop(0.5, rgb(88,119,162)),
+      color-stop(1, rgb(138,161,191))
+    );
+    
+    border:1px solid #314765;
+    
+    -webkit-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+    -moz-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+    box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87; 
+    
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+     
+    text-align:center;
+    line-height:26px;
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+    text-shadow: 0px -2px 0px #344255;
+    filter: dropshadow(color=#344255, offx=0, offy=-2);
+    cursor:pointer;
+  }
+  #mobileInputFeed {
+  	background-color: #363843;
+    background: url("../img/baseTile.png") #363843 repeat;
+  	position: fixed;
+  	text-align: center;
+  	width: 100%;
+  	height: 100%;
+    z-index: 6;
+  }
+  #mobileInputFeed textarea {
+    width: 96%;
+    margin: 8px 0 5px 0;
+    border: 0;
+  	font-family: 'JournalRegular', cursive;
+  	font-size: 22px;
+  	color: #6A6A69;
+  	background-color: #FFFFFF;
+  	-webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+  	outline: solid transparent;
+  	resize: none;
+    z-index: 7;
+  }
+  /* ==== Delete Confirmation ==== */
+  #deleteConfirmation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 45, 45, 0.7);
+    z-index: 10;
+  }
+  #deleteConfirmation section:after {
+    content: "";
+    position: absolute;
+    background-image: -moz-linear-gradient(center top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
+    background-image: -webkit-gradient(linear, center top, center bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.3)));
+    background-image: -o-linear-gradient(center top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
+    border-radius: 7px 7px 50% 50% / 7px 7px 4px 4px;
+    height: 15%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  #deleteConfirmation section {
+    position: relative;
+    background-color: rgba(22, 35, 68, 0.9);
+    border: 2px solid #DFE1E6;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font: 17px/23px "Helvetica Neue", Arial;
+    padding: 0 0 8px;
+    width: 250px;
+    height: 125px;
+    top: 30%;
+    margin: 0 auto;
+  }
+  #deleteConfirmation section p {
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #deleteConfirmation section button {
+    display: block;
+    cursor: pointer;
+    height: 30px;
+    width: 40%;
+    border: 1px solid #131E3B;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 28px;
+  }
+  #deleteConfirmation section button#yesDelete {
+    background: -moz-linear-gradient(center top, rgba(174, 178, 190, 0.6) 0%, rgba(106, 116, 139, 0.6) 50%, rgba(80, 90, 117, 0.6) 50%, rgba(95, 105, 129, 0.6) 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(174, 178, 190, 0.6)), color-stop(0.5, rgba(106, 116, 139, 0.6)), color-stop(0.5, rgba(80, 90, 117, 0.6)), to(rgba(95, 105, 129, 0.6))) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(center top, rgba(174, 178, 190, 0.6) 0%, rgba(106, 116, 139, 0.6) 50%, rgba(80, 90, 117, 0.6) 50%, rgba(95, 105, 129, 0.6) 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 1px 0 #454F69, 0 1px 0 #DADDE4 inset;
+    float: right;
+    margin-right: 14px;
+  }
+  #deleteConfirmation section button#noDelete {
+    background: -moz-linear-gradient(center top, rgba(116, 124, 143, 0.8) 0%, rgba(52, 63, 92, 0.8) 50%, rgba(22, 35, 68, 0.8) 50%, rgba(35, 47, 78, 0.8) 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(116, 124, 143, 0.8)), color-stop(0.5, rgba(52, 63, 92, 0.8)), color-stop(0.5, rgba(22, 35, 68, 0.8)), to(rgba(35, 47, 78, 0.8))) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(center top, rgba(116, 124, 143, 0.8) 0%, rgba(52, 63, 92, 0.8) 50%, rgba(22, 35, 68, 0.8) 50%, rgba(35, 47, 78, 0.8) 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 1px 0 #454F69;
+    float: left;
+    margin-left: 14px;
+  }
+/* ==== PopOut Buttons ==== */
+  .buttonMenu {
+    height: 35px;
+    margin: 0 auto 5px auto;
+    padding: 0;
+  }
+  .buttonTab {
+    border-radius: 5px 5px 5px 5px;
+    width: 33%;
+    margin: 0;
+    float: right;
+  }
+  /* ==== PopMenu Overrides ==== */
+  .buttonTab.bgcGreen,
+  .buttonTab.bgcGrey,
+  .buttonTab.bgcPurple,
+  .buttonTab.bgcTeal,
+  #colorSelect.colorWhite,
+  #colorSelect.colorRed,
+  #colorSelect.colorGreen,
+  #colorSelect.colorBlue,
+  #colorSelect.colorYellow,
+  #colorSelect.colorOrange,
+  #colorSelect.colorPurple,
+  #colorSelect.colorBlack {
+    background: none;
+  }
+  #fontSizer p {
+    display: none;
+  }
+  /* ==== PopMenu Button Styles ==== */
+  .popMenu {
+    width: 90%;
+    height: 85%;
+  }
+  .popMenu,
+  #colorSelect.popMenu {
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(192,192,196,1) 2%, rgba(54,56,67,1) 50%, rgba(54,56,67,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,1)), color-stop(0.02, rgba(192,192,196,1)), color-stop(0.5, rgba(54,56,67,1)), to(rgba(54,56,67,1))); /* < Chrome10, < Safari5.1 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* W3C */
+    
+    border: 0;
+    
+    -webkit-box-shadow: 0px 1px 0px 0px #2D2D2D,inset 0px 1px 1px 1px #383838;
+    -moz-box-shadow: 0px 1px 0px 0px #2D2D2D,inset 0px 1px 1px 1px #383838;
+    box-shadow: 0px 1px 0px 0px #2D2D2D,inset 0px 1px 1px 1px #383838; 
+    
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+     
+    text-align:center;
+    line-height:30px;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    text-shadow: 0px -2px 0px #344255;
+    filter: dropshadow(color=#344255, offx=0, offy=-2);
+    cursor:pointer;
+  }
+  .popMenu>img {
+    display: none;
+  }
+  /* ==== popMenu Titles ==== */
+  #fontSizer:before {
+    content: "Font Size";
+  }
+  #colorSelect:before {
+    content: "Text Color";
+  }
+  #fontSelect:before {
+    content: "Font Face";
+  }

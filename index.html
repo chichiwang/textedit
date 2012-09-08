@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if gte IE 9]><html class="ie no-js"><![endif]-->
+<!--[if lt IE 9]><html class="ie lt9 no-js"><![endif]-->
+<!--[if !IE]> --><html class="no-js"><!-- <![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Text Edit Prototype</title>
+
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui-1.8.21.custom.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--[if gte IE 9]>
+  <style type="text/css">
+    .blockGradient,
+    .textGradient,
+    .colorPreview {
+       filter: none;
+    }
+  </style>
+  <![endif]-->
+  
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5.js"></script>
+  <![endif]-->
+
+  <!-- Google Web Fonts -->
+  <link href="assets/css/fonts.css" rel="stylesheet" type="text/css">
+  
+  <!-- Fav/Touch Icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+  <!-- PAGE-WRAP -->
+	<div id="page-wrap" class="clearfix">
+    <!-- HEADER -->
+    <header class="blockGradient pageFullBlock clearfix bgcGreen">
+      <h1>Chi-chi's Fabulous Text Edit Interface</h1>
+      <!-- Background Color Change Menu -->
+      <section id="bgcSelect">
+        <menu>
+          <li class="bgcGreen"></li>
+          <li class="bgcGrey"></li>
+          <li class="bgcPurple"></li>
+          <li class="bgcTeal"></li>
+        </menu>
+      </section>
+      <p>Version 0.1</p>
+      <p id="debugC"></p>
+    </header> <!-- END HEADER -->
+    <!-- JAVASCRIPT REQUIRED SECTION -->
+    <div id="jsReq" class="blockGradient pageFullBlock clearfix bgcGreen">
+      <p class="colorWhite ubuntu">This demo requires javascript to run.  Please enable javascript in your browser.</p>
+    </div>
+    <!-- OUTPUT SECTION -->
+    <section id="output" class="multiBlock clearfix">
+      <section class="buttonMenu clearfix">
+
+        <div class="buttonTab topTab bgcGreen"><!-- Font Resize Menu -->
+          <div id="fontSizer" class="popMenu">
+            <img src="assets/img/colorMenu.png" />
+            <p>18</p>
+            <section class="menuClosed">
+              <div id="fontSlide" class="slider">
+                <div id="fontUp"></div>
+                <div id="currentFontSize">14px</div>
+                <div id="fontDown"></div>
+                <button id="fontSizeDone" type="button">Set Font Size</button>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="buttonTab topTab bgcGreen"><!-- Text Color Menu -->
+          <div id="colorSelect" class="colorWhite popMenu">
+            <img src="assets/img/colorMenu.png" />
+            <menu class="menuClosed">
+              <li class="colorWhite selected"><div class="colorPreview"></div>White</li>
+              <li class="colorRed"><div class="colorPreview"></div>Red</li>
+              <li class="colorGreen"><div class="colorPreview"></div>Green</li>
+              <li class="colorBlue"><div class="colorPreview"></div>Blue</li>
+              <li class="colorYellow"><div class="colorPreview"></div>Yellow</li>
+              <li class="colorOrange"><div class="colorPreview"></div>Orange</li>
+              <li class="colorPurple"><div class="colorPreview"></div>Purple</li>
+              <li class="colorBlack"><div class="colorPreview"></div>Black</li>
+            </menu>
+          </div>
+        </div>
+        <div class="buttonTab topTab bgcGreen">
+          <div id="fontSelect" class="popMenu"><!-- Font Face Menu -->
+            <img src="assets/img/fontMenu.png" />
+            <menu class="menuClosed colorWhite">
+              <li class="ubuntu selected">Ubuntu Condensed</li>
+              <li class="droidSans">Droid Sans</li>
+              <li class="tienne">Tienne</li>
+              <li class="droidSerif">Droid Serif</li>
+              <li class="lobster">Lobster</li>
+            </menu>
+          </div>
+        </div>
+
+      </section><!-- END BUTTON MENU BAR -->
+      <!-- BEGIN OUTPUT FEED CONTENT -->
+		  <div id="outputFeed" class="blockGradient pageFullBlock clearfix bgcGreen">
+        <p class="colorWhite ubuntu">Objectives of this exercise<br /><br />&nbsp;&nbsp;1. Develop from a template:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Build a template with elegant directory structure<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(layout-specific files in an assets directory, etc.)<br />&nbsp;&nbsp;&nbsp;&nbsp;- HTML5 Shiv<br />&nbsp;&nbsp;&nbsp;&nbsp;- Normalize CSS3<br />&nbsp;&nbsp;&nbsp;&nbsp;- Load jQuery from the Google CDN<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(also link to a local copy)<br /><br />&nbsp;&nbsp;2. Become familiar with front-end development tools:<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS3 PIE<br />&nbsp;&nbsp;&nbsp;&nbsp;- Colorzilla CSS3 Gradient Editor<br />&nbsp;&nbsp;&nbsp;&nbsp;- jQuery UI<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(slider widget)<br /><br />&nbsp;&nbsp;3. Practice front-end techniques:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Clean, structured CSS rules<br />&nbsp;&nbsp;&nbsp;&nbsp;- Form styling<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS font loading<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(@font-face and font kits)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Object approach to CSS classes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tabs, buttons, page elements, etc.)<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS3 gradient syntax<br />&nbsp;&nbsp;&nbsp;&nbsp;- jQuery Plugin Authoring<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(write plugins for menus and text-edit functionality)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Simple regular expressions<br />&nbsp;&nbsp;&nbsp;&nbsp;- Dropdown menus built from scratch<br />&nbsp;&nbsp;&nbsp;&nbsp;- Clean, readable, modular javascript<br /><br />&nbsp;&nbsp;4. Adaptive Design:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Responsive elements for all screen devices<br />&nbsp;&nbsp;&nbsp;&nbsp;- Adaptively designed layout<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(aim to provide the best experience for each device)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Touch device feature detection in javascript<br /><br />&nbsp;&nbsp;5. Sweet ass design:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Make her look slick</p>
+        <!-- END OUTPUT FEED CONTENT -->
+        <form id="inputFeed"> <!-- INPUT SECTION -->
+          <fieldset class="clearfix">
+            <textarea class="textGradient" placeholder="Input text here"></textarea>
+          </fieldset>
+        </form><!-- END INPUT SECTION -->
+        <button id="inputText_toggle" type="button"></button><br />
+      </div><!-- END OUTPUT FEED CONTENT -->
+    </section><!-- END OUTPUT SECTION -->
+	</div><!-- END PAGE-WRAP -->
+
+  <!-- MOBILE MENU -->
+  <section id="mobileMenuBar">
+    <button id="mobileTextButton" type="button"></button>
+    <section id="mobileSettingsButton">
+      <menu id="mobileSettings" class="menuClosed">
+        <li class="fontSelect">Font Face</li>
+        <li class="colorSelect">Text Color</li>
+        <li class="fontSizer">Font Size</li>
+      </menu>
+    </section>
+  </section>
+  <section id="mobileInputFeed">
+    <button id="deleteTextButton" type="button">Delete</button>
+    <textarea class="textGradient" placeholder="Input text here"></textarea>
+  </section>
+  <div id="deleteConfirmation">
+    <section>
+      <p>Are you sure you want to delete all text?</p>
+      <button id="noDelete" type="button">Cancel</button>
+      <button id="yesDelete" type="button">Confirm</button>
+    </section>
+  </div>
+  <!-- MOBILE MENU END -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="assets/js/edittext-button.js"></script>
+<script type="text/javascript" src="assets/js/popout-menus.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
