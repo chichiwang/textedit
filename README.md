@@ -47,7 +47,7 @@ This project became the vehicle by which I learned and practice a large swath of
      
      Found at [http://jqueryui.com](http://jqueryui.com)
 
-     jQuery UI provides plugins for common user interface widgets.  For this particular project I only used two functions in the library: the *slider widget* and the ability to *animte between css classes*.  I used the Themeroller to choose just the components I would need in the project to be included in the library.
+     jQuery UI provides plugins for common user interface widgets.  For this particular project I only used two functions in the library: the *slider widget* and the ability to *animate between css classes*.
 
   5. **CSS Font Loading**
 
@@ -61,7 +61,7 @@ This project became the vehicle by which I learned and practice a large swath of
 
   7. **jQuery Plugin Authoring**
      
-     I developed my very first jQuery plugins in developing this Text Edit Interface.  I built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site and another to handle the text-editing functionality central to the page.
+     I developed my first jQuery plugins in developing this Text Edit Interface.  I built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site and another to handle the text-editing functionality central to the page.
 
      These plugins can be found in the assets/js directory.  The files are named *popout-menus.js* and *edittext-button.js*
 
