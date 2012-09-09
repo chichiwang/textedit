@@ -27,14 +27,14 @@ This project became the vehicle by which I learned and practice a large swath of
        - [HTML5 Shiv](https://github.com/aFarkas/html5shiv)
        - [Normalize CSS](http://necolas.github.com/normalize.css/)
        - [jQuery](http://jquery.com)
-       - Favicon / Touch Icons
-       
+       - Favicon and Touch Icons
+       - Viewport meta tag targeting mobile devices
         
   2. **CSS3PIE**
 
      CSS3 Progressive Internet Explorer found at [http://css3pie.com/](http://css3pie.com/).
 
-     This is a tool that provides a few CSS3 features to older Internet Explorer browsers (IE6-IE9).  Namely it helps Internet Explorer render border-radius, box-shadow and linear-gradient.  It is very useful in making a page cross-browser compliant.
+     This is a tool which provides a few CSS3 features to older Internet Explorer browsers (IE6-IE9).  Namely it helps Internet Explorer render border-radius, box-shadow and linear-gradient.  It is very useful in making a page cross-browser compliant.
 
   3. **Colorzilla Ultimate CSS Gradient Editor**
 
@@ -46,36 +46,36 @@ This project became the vehicle by which I learned and practice a large swath of
      
      Found at [http://jqueryui.com](http://jqueryui.com)
 
-     jQuery UI provides widgets of common user interface objects for use in your project.  For this particular project I only used two functions within the library: the *slider widget* and the ability to *animte between css classes*.  I used the Themeroller to choose just the components I would need in the project to be included in the library.
+     jQuery UI provides plugins for common user interface widgets.  For this particular project I only used two functions in the library: the *slider widget* and the ability to *animte between css classes*.  I used the Themeroller to choose just the components I would need in the project to be included in the library.
 
   5. **CSS Font Loading**
 
-     For this project I utilized free online web fonts and learned how to load them into the user's browser through CSS3's @font-face.  I used online [font-face kits](http://www.fontsquirrel.com/) in order that I had all of the font file formats used by the various browser, thus ensuring cross-browser compatibility.
+     I utilized free online web fonts and learned how to load them into the user's browser through CSS3's @font-face selector.  I used online [font-face kits](http://www.fontsquirrel.com/) to provide all of the font file formats used by the various browser thus ensuring cross-browser compatibility.
 
   6. **CSS3 Gradient Syntax**
 
-     While the Colorzilla CSS Gradient Editor is very useful for your standard linear gradients I found a need to create more complex gradients for other elements in this project.  (specifically to create the shine on popup elements on the mobile version of the browser application)
+     While the Colorzilla CSS Gradient Editor is very useful for your standard linear gradients I found a need to create more complex gradients for other elements in this project.  (specifically to create the shine on popup elements in the mobile version of this browser application)
 
-     For this I dug deeper into CSS3 gradient syntax and learned the various ways different browsers interpret linear gradient properties and display them.  [This page](http://www.the-art-of-web.com/css/linear-gradients/) was an especially useful starting point for my inquiries.
+     For this I dug deeper into CSS3 gradient syntax and learned the various ways different browsers interpret linear gradient properties and display them.  [This page](http://www.the-art-of-web.com/css/linear-gradients/) was an especially useful starting point for my investigation into gradient syntax.
 
   7. **jQuery Plugin Authoring**
      
-     I also made my very first attempts at building jQuery plugins in developing the Text Edit Interface.  I built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site, and one to handle the text-editing functionality central to the page.
+     I developed my very first jQuery plugins in developing this Text Edit Interface.  I built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site and another to handle the text-editing functionality central to the page.
 
-     These plugins can be found in the assets/js directory.  The files are titled popout-menus.js and edittext-button.js
+     These plugins can be found in the assets/js directory.  The files are named *popout-menus.js* and *edittext-button.js*
 
   8. **Form Validation**
 
-     I studied how to use regular expressions to parse the input strings provided by the user to strip them of malicious potential.  This is to prevent code insertion exploits and the like.
+     I studied how to use regular expressions to parse the input strings provided by the user and strip them of malicious potential.  This is to prevent code insertion exploits and the like.
 
   9. **Class Heavy CSS**
 
-     This is the first project wherein I made heavy use of css classes to style a page.  I used a modular, object-like approach to the display of page elements.
+     I made heavy use of css classes to style the page.  I took a modular, object-like approach to the display of page elements.
 
   10. **Responsive/Adaptive Design**
 
-     This is the first project in which I made the elements responsive and the functionality adaptive to the device by which the page is accessed.
+     I built the page elements to be responsive and the functionality to be device-adaptive.
 
-     By using userAgent detection and browser feature detection in javascript I could infer if the user is on a smaller touch device or else infer they are on a larger mouse/trackpad device.  Using this information I could dynamically load a stylesheet with specific style overrides.  At the same time I could intialize different javascript event handlers depending on what sort of device I am assuming the user to be accessing the page with.
+     By using userAgent sniffing and browser feature detection in javascript I am able to infer what sort of device the user is accessing the page with.  Using this information I dynamically load a stylesheet with specific style overrides.  At the same time I intialize different javascript event handlers depending on the device.
 
-     The result of this is the presentation of different visual elements and functionality depending on if the user is on a pc or mobile device.
+     This results in different visual presentation and functionality for PCs and mobile devices.
