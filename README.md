@@ -51,7 +51,7 @@ This project became the vehicle by which I learned and practice a large swath of
 
   5. **CSS Font Loading**
 
-     I utilized free online web fonts and learned how to load them into the user's browser through CSS3's @font-face selector.  I used online [font-face kits](http://www.fontsquirrel.com/) to provide all of the font file formats used by the various browser thus ensuring cross-browser compatibility.
+     Utilized free online web fonts and learned how to load them into the user's browser through CSS3's @font-face selector.  Used online [font-face kits](http://www.fontsquirrel.com/) to provide all of the font file formats used by the various browser thus ensuring cross-browser compatibility.
 
   6. **CSS3 Gradient Syntax**
 
@@ -61,21 +61,21 @@ This project became the vehicle by which I learned and practice a large swath of
 
   7. **jQuery Plugin Authoring**
      
-     I developed my first jQuery plugins in developing this Text Edit Interface.  I built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site and another to handle the text-editing functionality central to the page.
+     Built two plugins for the project: one to handle the drop-down menus found on the desktop/laptop version of the site and another to handle the text-editing functionality central to the page.
 
      These plugins can be found in the assets/js directory.  The files are named *popout-menus.js* and *edittext-button.js*
 
   8. **Form Validation**
 
-     I studied how to use regular expressions to parse the input strings provided by the user and strip them of malicious potential.  This is to prevent code insertion exploits and the like.
+     Studied how to use regular expressions to parse the input strings provided by the user and strip them of malicious potential.  This is to prevent code insertion exploits and the like.
 
   9. **Class Heavy CSS**
 
-     I made heavy use of css classes to style the page.  I took a modular, object-like approach to the display of page elements.
+     Made heavy use of css classes to style the page.  Took a modular, object-like approach to the display of page elements.
 
   10. **Responsive/Adaptive Design**
 
-     I built the page elements to be responsive and the functionality to be device-adaptive.
+     Built the page elements to be responsive and the functionality to be device-adaptive.
 
      By using userAgent sniffing and browser feature detection in javascript I am able to infer what sort of device the user is accessing the page with.  Using this information I dynamically load a stylesheet with specific style overrides.  At the same time I intialize different javascript event handlers depending on the device.
 
