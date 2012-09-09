@@ -1,5 +1,6 @@
 /*  Author: Chi-chi Wang
-	Quick Prototype Script
+	Text Edit Prototype Script
+	Dependencies: popout-menu.js, edittext-button.js
 */
 $(document).ready( function() {
 
@@ -360,7 +361,7 @@ $(document).ready( function() {
 	$('html').removeClass('no-js');
 	//Mobile Device Specific Functionality
 	if ((screenWidth <= 1024) && ('ontouchstart' in document.documentElement)) {
-		$('body').append('<link href="assets/css/mobile.css" rel="stylesheet" type="text/css">');
+		$('body').append('<link href="assets/css/mobile.min.css" rel="stylesheet" type="text/css">');
 		mobileTextMenu();
 		$('#colorSelect').popout({ 'menuTargets' : '#outputFeed>p, #colorSelect, #fontSelect>menu',
 									'toggleOpenClose' : false });

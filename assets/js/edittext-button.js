@@ -80,7 +80,9 @@
             if (settings.inputAutoGrow === true) {
               var $this       = $inputEl,
                   minHeight   = $this.height(),
-                  lineHeight  = $this.css('lineHeight');
+                  lineHeight  = $this.css('lineHeight'),
+                  bindEvent   = "keyup.editTextButton keydown.editTextButton",
+                  triggerEvent = "keyup.editTextButton";
 
 
               var shadow = $('<div></div>').css({
@@ -94,6 +96,10 @@
                   resize:     'none'
               }).appendTo(document.body);
 
+            }
+            else {
+              var bindEvent = "blur.editTextButton",
+                  triggerEvent = "blur.editTextButton";
             }
 
                 //inputChangeHandler()
@@ -151,8 +157,8 @@
                 }//END displayInputText();
 
           //Begin bindOutput2Input() execution
-          $inputEl.bind('blur.editTextButton', inputChangeHandler);
-          $inputEl.trigger('blur.editTextButton');
+          $inputEl.bind(bindEvent, inputChangeHandler);
+          $inputEl.trigger(triggerEvent);
           }
           //bindOutput2Input() END;
 

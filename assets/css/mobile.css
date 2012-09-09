@@ -1,9 +1,7 @@
 /* ===== Mobile Styles ========================================================
 	Author: Chi-chi Wang
-	TITLE COMMENTS
+	Text Edit Prototype override styles for mobile devices
   ==========================================================================  */
-  /* @media only screen
-  and (max-device-width : 1024px) { */
 
   button#inputText_toggle {
   visibility: hidden;
