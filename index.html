@@ -41,7 +41,7 @@
 
 <body>
   <!-- PAGE-WRAP -->
-	<div id="page-wrap" class="clearfix">
+  <div id="page-wrap" class="clearfix">
     <!-- HEADER -->
     <header class="blockGradient pageFullBlock clearfix bgcGreen">
       <h1>Chi-chi's Fabulous Text Edit Interface</h1>
@@ -108,10 +108,11 @@
         </div>
 
       </section><!-- END BUTTON MENU BAR -->
-      <!-- BEGIN OUTPUT FEED CONTENT -->
-		  <div id="outputFeed" class="blockGradient pageFullBlock clearfix bgcGreen">
+      <!-- BEGIN OUTPUT FEED BLOCK -->
+      <div id="outputFeed" class="blockGradient pageFullBlock clearfix bgcGreen">
+        <!-- BEGIN OUTPUT FEED CONTENT (EDITABLE AREA) -->
         <p class="colorWhite ubuntu">Objectives of this exercise<br /><br />&nbsp;&nbsp;1. Develop from a template:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Build a template with elegant directory structure<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(layout-specific files in an assets directory, etc.)<br />&nbsp;&nbsp;&nbsp;&nbsp;- HTML5 Shiv<br />&nbsp;&nbsp;&nbsp;&nbsp;- Normalize CSS3<br />&nbsp;&nbsp;&nbsp;&nbsp;- Load jQuery from the Google CDN<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(also link to a local copy)<br /><br />&nbsp;&nbsp;2. Become familiar with front-end development tools:<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS3 PIE<br />&nbsp;&nbsp;&nbsp;&nbsp;- Colorzilla CSS3 Gradient Editor<br />&nbsp;&nbsp;&nbsp;&nbsp;- jQuery UI<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(slider widget)<br /><br />&nbsp;&nbsp;3. Practice front-end techniques:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Clean, structured CSS rules<br />&nbsp;&nbsp;&nbsp;&nbsp;- Form styling<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS font loading<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(@font-face and font kits)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Object approach to CSS classes<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tabs, buttons, page elements, etc.)<br />&nbsp;&nbsp;&nbsp;&nbsp;- CSS3 gradient syntax<br />&nbsp;&nbsp;&nbsp;&nbsp;- jQuery Plugin Authoring<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(write plugins for menus and text-edit functionality)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Simple regular expressions<br />&nbsp;&nbsp;&nbsp;&nbsp;- Dropdown menus built from scratch<br />&nbsp;&nbsp;&nbsp;&nbsp;- Clean, readable, modular javascript<br /><br />&nbsp;&nbsp;4. Adaptive Design:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Responsive elements for all screen devices<br />&nbsp;&nbsp;&nbsp;&nbsp;- Adaptively designed layout<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(aim to provide the best experience for each device)<br />&nbsp;&nbsp;&nbsp;&nbsp;- Touch device feature detection in javascript<br /><br />&nbsp;&nbsp;5. Sweet ass design:<br />&nbsp;&nbsp;&nbsp;&nbsp;- Make her look slick</p>
-        <!-- END OUTPUT FEED CONTENT -->
+        <!-- END OUTPUT FEED CONTENT (EDITABLE AREA) -->
         <form id="inputFeed"> <!-- INPUT SECTION -->
           <fieldset class="clearfix">
             <textarea class="textGradient" placeholder="Input text here"></textarea>
@@ -119,8 +120,8 @@
         </form><!-- END INPUT SECTION -->
         <button id="inputText_toggle" type="button"></button><br />
       </div><!-- END OUTPUT FEED CONTENT -->
-    </section><!-- END OUTPUT SECTION -->
-	</div><!-- END PAGE-WRAP -->
+    </section><!-- END OUTPUT BLOCK -->
+  </div><!-- END PAGE-WRAP -->
 
   <!-- MOBILE MENU -->
   <section id="mobileMenuBar">
@@ -146,9 +147,9 @@
   </div>
   <!-- MOBILE MENU END -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-<script type="text/javascript" src="assets/js/jquery-ui-1.8.21.custom.min.js"></script>
-<script type="text/javascript" src="assets/js/script.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+  <script type="text/javascript" src="assets/js/jquery-ui-1.8.21.custom.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.min.js"></script>
 </body>
 </html>

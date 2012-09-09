@@ -5,11 +5,11 @@
 
 /* ==== Base Element Styles ==== */
   .clearfix:after {
-	 content: " ";
-	 display: block;
-	 height: 0;
-	 clear: both;
-	 visibility: hidden;
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
   }
  
   html, body {
@@ -21,15 +21,15 @@
     z-index: 1;
   }
   .lt9 body {
-  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/baseTile.png', sizingMethod='crop'); /* IE6-8 */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/baseTile.png', sizingMethod='crop'); /* IE6-8 */
   }
   p, h1 {
     margin: 0;
     white-space: normal;
   }
   ul, li {
-  	margin: 0;
-  	padding: 0;
+    margin: 0;
+    padding: 0;
   }
 /* ==== Element Blocks ==== */
   #page-wrap {
@@ -49,16 +49,16 @@
   }
   .pageFullBlock{
     position: relative;
-  	width: 92%;
-  	margin: 5px auto;
+    width: 92%;
+    margin: 5px auto;
     padding: 5px 10px;
     min-height: 35px;
-  	-webkit-border-radius: 5px;
-  	-moz-border-radius: 5px;
-  	border-radius: 5px;
-  	-moz-box-shadow:     0 0 3px 1px #5A5A57;
-  	-webkit-box-shadow:  0 0 3px 1px #5A5A57;
-   	box-shadow:          0 0 3px 1px #5A5A57;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:     0 0 3px 1px #5A5A57;
+    -webkit-box-shadow:  0 0 3px 1px #5A5A57;
+    box-shadow:          0 0 3px 1px #5A5A57;
     behavior: url(assets/css/PIE.php);
   }
 /* ==== Button Tabs ==== */
@@ -564,15 +564,15 @@
     width: 100%;
     min-height: 350px;
     border: 0;
-  	font-family: 'JournalRegular', cursive;
-  	font-size: 22px;
-  	color: #6A6A69;
-  	background-color: #FFFFFF;
-  	-webkit-border-radius: 5px;
-  	-moz-border-radius: 5px;
-  	border-radius: 5px;
-  	outline: solid transparent;
-  	resize: none;
+    font-family: 'JournalRegular', cursive;
+    font-size: 22px;
+    color: #6A6A69;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: solid transparent;
+    resize: none;
   }
   #inputFeed textarea:focus {
       color: #6d6d6d;

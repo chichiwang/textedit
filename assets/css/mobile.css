@@ -4,7 +4,7 @@
   ==========================================================================  */
 
   button#inputText_toggle {
-  visibility: hidden;
+    visibility: hidden;
   }
   #outputFeed {
     margin-bottom: 40px;
@@ -12,52 +12,52 @@
 
 /* ==== Bottom Menu Bar ==== */
   #mobileMenuBar {
-  	display: block;
-  	position: fixed;
+    display: block;
+    position: fixed;
     overflow: visible;
-  	width: 100%;
-  	border-top: 1px solid #363843;
+    width: 100%;
+    border-top: 1px solid #363843;
     border-bottom: 1px solid #292B33;
-  	z-index: 8;
-  	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(192,192,196,1) 2%, rgba(54,56,67,1) 50%, rgba(54,56,67,1) 100%); /* FF3.6+ */
-  	background: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,1)), color-stop(0.02, rgba(192,192,196,1)), color-stop(0.5, rgba(54,56,67,1)), to(rgba(54,56,67,1))); /* < Chrome10, < Safari5.1 */
+    z-index: 8;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(192,192,196,1) 2%, rgba(54,56,67,1) 50%, rgba(54,56,67,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,1)), color-stop(0.02, rgba(192,192,196,1)), color-stop(0.5, rgba(54,56,67,1)), to(rgba(54,56,67,1))); /* < Chrome10, < Safari5.1 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* Chrome10+,Safari5.1+ */
-  	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* W3C */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(192,192,196,1) 2%,rgba(54,56,67,1) 50%,rgba(54,56,67,1) 100%); /* W3C */
   }
   button#mobileTextButton {
-  	display: block;
-  	border: 0;
-  	width: 47px;
+    display: block;
+    border: 0;
+    width: 47px;
     height: 26px;
     margin: 3px auto 0 auto;
   }
   button#mobileTextButton {
-	background:#4a6c9b;
-	
-	background-image: url("../img/keyboard_mobile.png"), linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
-	background-image: url("../img/keyboard_mobile.png"), -o-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
-	background-image: url("../img/keyboard_mobile.png"), -moz-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
-	background-image: url("../img/keyboard_mobile.png"), -webkit-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
-	background-image: url("../img/keyboard_mobile.png"), -ms-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
-	background-image: url("../img/keyboard_mobile.png"), -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, rgb(74,108,155)),
-		color-stop(0.5, rgb(71,105,153)),
-		color-stop(0.5, rgb(88,119,162)),
-		color-stop(1, rgb(138,161,191))
-	);
-	
-	border:1px solid #314765;
-	
-	-webkit-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
-	-moz-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
-	box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87; 
-	
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
+    background:#4a6c9b;
+  
+    background-image: url("../img/keyboard_mobile.png"), linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: url("../img/keyboard_mobile.png"), -o-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: url("../img/keyboard_mobile.png"), -moz-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: url("../img/keyboard_mobile.png"), -webkit-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: url("../img/keyboard_mobile.png"), -ms-linear-gradient(bottom, rgb(74,108,155) 0%, rgb(71,105,153) 50%, rgb(88,119,162) 50%, rgb(138,161,191) 100%);
+    background-image: url("../img/keyboard_mobile.png"), -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+    color-stop(0, rgb(74,108,155)),
+    color-stop(0.5, rgb(71,105,153)),
+    color-stop(0.5, rgb(88,119,162)),
+    color-stop(1, rgb(138,161,191))
+    );
+  
+    border:1px solid #314765;
+  
+    -webkit-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+    -moz-box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87;
+    box-shadow: 0px 1px 0px 0px #9dacc1,inset 0px 1px 1px 1px #405e87; 
+  
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
   }
   /* ==== Settings Button ==== */
   #mobileSettingsButton {
@@ -200,27 +200,27 @@
     cursor:pointer;
   }
   #mobileInputFeed {
-  	background-color: #363843;
+    background-color: #363843;
     background: url("../img/baseTile.png") #363843 repeat;
-  	position: fixed;
-  	text-align: center;
-  	width: 100%;
-  	height: 100%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100%;
     z-index: 6;
   }
   #mobileInputFeed textarea {
     width: 96%;
     margin: 8px 0 5px 0;
     border: 0;
-  	font-family: 'JournalRegular', cursive;
-  	font-size: 22px;
-  	color: #6A6A69;
-  	background-color: #FFFFFF;
-  	-webkit-border-radius: 5px;
-  	-moz-border-radius: 5px;
-  	border-radius: 5px;
-  	outline: solid transparent;
-  	resize: none;
+    font-family: 'JournalRegular', cursive;
+    font-size: 22px;
+    color: #6A6A69;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: solid transparent;
+    resize: none;
     z-index: 7;
   }
   /* ==== Delete Confirmation ==== */
