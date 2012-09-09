@@ -1,6 +1,6 @@
 /* ===== Primary Styles ========================================================
-	Author: Chi-chi Wang
-	Text Edit Prototype Styles
+  Author: Chi-chi Wang
+  Text Edit Prototype Styles
   ==========================================================================  */
 
 /* ==== Base Element Styles ==== */
@@ -526,8 +526,8 @@
     display: block;
   }
   #outputFeed {
-  	margin-top: 0;
-  	min-height: 100px;
+    margin-top: 0;
+    min-height: 100px;
   }
   #outputFeed p {
     cursor: default;

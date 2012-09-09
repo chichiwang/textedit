@@ -1,6 +1,6 @@
 /* ===== Mobile Styles ========================================================
-	Author: Chi-chi Wang
-	Text Edit Prototype override styles for mobile devices
+  Author: Chi-chi Wang
+  Text Edit Prototype override styles for mobile devices
   ==========================================================================  */
 
   button#inputText_toggle {
@@ -43,10 +43,10 @@
       linear,
       left bottom,
       left top,
-    color-stop(0, rgb(74,108,155)),
-    color-stop(0.5, rgb(71,105,153)),
-    color-stop(0.5, rgb(88,119,162)),
-    color-stop(1, rgb(138,161,191))
+      color-stop(0, rgb(74,108,155)),
+      color-stop(0.5, rgb(71,105,153)),
+      color-stop(0.5, rgb(88,119,162)),
+      color-stop(1, rgb(138,161,191))
     );
   
     border:1px solid #314765;
