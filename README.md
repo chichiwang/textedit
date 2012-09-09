@@ -29,8 +29,7 @@ This project became the vehicle by which I learned and practice a large swath of
        - [jQuery](http://jquery.com)
        - Favicon and Touch Icons
        - Viewport meta tag targeting mobile devices
-
-     Built a directory tree structure with an assets directory containing all of the project assets.
+  	<br />
         
   2. **CSS3PIE**
 
