@@ -28,7 +28,7 @@ This project became the vehicle by which I learned and practice a large swath of
        - [Normalize CSS](http://necolas.github.com/normalize.css/)
        - [jQuery](http://jquery.com)
        - Favicon / Touch Icons
-
+        
   2. **CSS3PIE**
 
      CSS Progressive Internet Explorer found at [http://css3pie.com/](http://css3pie.com/).
