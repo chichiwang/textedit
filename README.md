@@ -29,6 +29,8 @@ This project became the vehicle by which I learned and practice a large swath of
        - [jQuery](http://jquery.com)
        - Favicon and Touch Icons
        - Viewport meta tag targeting mobile devices
+
+     Built a directory tree structure with an assets directory containing all of the project assets.
         
   2. **CSS3PIE**
 
@@ -40,7 +42,7 @@ This project became the vehicle by which I learned and practice a large swath of
 
      Found at [http://www.colorzilla.com/gradient-editor/](http://www.colorzilla.com/gradient-editor/)
 
-     This online UI allows a designer/developer to intuitively design gradients for use on the web.  After you've created your gradient it will provide you with all of the browser-compatible properties and values you need in your style sheet to render your gradient.
+     This online UI allows a designer/developer to intuitively design gradients for use on the web.  After creating a gradient it will provide all of the browser-specific properties and values necessary for the style sheet to render the gradient.
 
   4. **jQuery UI**
      
