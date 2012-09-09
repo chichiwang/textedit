@@ -28,10 +28,11 @@ This project became the vehicle by which I learned and practice a large swath of
        - [Normalize CSS](http://necolas.github.com/normalize.css/)
        - [jQuery](http://jquery.com)
        - Favicon / Touch Icons
+       
         
   2. **CSS3PIE**
 
-     CSS Progressive Internet Explorer found at [http://css3pie.com/](http://css3pie.com/).
+     CSS3 Progressive Internet Explorer found at [http://css3pie.com/](http://css3pie.com/).
 
      This is a tool that provides a few CSS3 features to older Internet Explorer browsers (IE6-IE9).  Namely it helps Internet Explorer render border-radius, box-shadow and linear-gradient.  It is very useful in making a page cross-browser compliant.
 
