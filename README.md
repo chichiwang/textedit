@@ -29,9 +29,7 @@ This project became the vehicle by which I learned and practice a large swath of
        - [jQuery](http://jquery.com)
        - Favicon and Touch Icons
        - Viewport meta tag targeting mobile devices
-       
-<br />
-        
+
   2. **CSS3PIE**
 
      CSS3 Progressive Internet Explorer found at [http://css3pie.com/](http://css3pie.com/).
