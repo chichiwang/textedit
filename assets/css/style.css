@@ -563,7 +563,7 @@
   }
   #inputFeed textarea {
     width: 100%;
-    min-height: 350px;
+    min-height: 150px;
     border: 0;
     font-family: 'JournalRegular', cursive;
     font-size: 22px;
